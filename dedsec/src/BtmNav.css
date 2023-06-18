@@ -1,0 +1,24 @@
+.MuiBottomNavigation-root {
+    width: 100%;
+    background-color: #ffffff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    border-top: 1px solid #2f2f2f;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 56px;
+    min-height: 56px;
+    max-height: 56px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+}

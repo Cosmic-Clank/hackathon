@@ -1,0 +1,22 @@
+.swipeButtons {
+    position: fixed;
+    bottom: 10vh;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.swipeButtons .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px rgba(0, 0, 0, 0.3) !important;
+}
+
+.swipeButtons__thumbUp {
+    padding: 3vh !important;
+    color: rgb(125, 206, 2) !important;
+}
+
+.swipeButtons__thumbDown {
+    padding: 3vh !important;
+    color: rgb(253, 91, 91) !important;
+}
